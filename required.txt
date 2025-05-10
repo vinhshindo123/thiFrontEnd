@@ -8,4 +8,7 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
  #mockAPI
-...
+---- Users ---
+https://681ea61ac1c291fa6634a60c.mockapi.io/qlkh/users
+---- Courses ---
+https://681ea61ac1c291fa6634a60c.mockapi.io/qlkh/courses
