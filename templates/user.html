@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập tài khoản</title>
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/user.css">
+</head>
+
+<body>
+    <div class="alert">
+        <div class="alert-header" id="alert-type">Cảnh báo</div>
+        <div class="alert-description" id="alert-text">Hãy điền đẩy đủ thông tin</div>
+    </div>
+    <div class="container" id="container">
+        <div class="form register" id="registerForm">
+            <form>
+                <h2 class="top">Đăng kí </h2>
+                <div class="input">
+                    <input type="text" id="username-signup" required>
+                    <label for="">Tên người dùng</label>
+                    <i class="fa-solid fa-user"></i>
+                    <span></span>
+                </div>
+                <div class="input">
+                    <input type="email" id="email-signup" required>
+                    <label for="">Email</label>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span></span>
+                </div>
+                <div class="input">
+                    <input type="password" id="password-signup" required>
+                    <label for="">Mật khẩu</label>
+                    <i class="fa-solid fa-eye"></i>
+                    <span></span>
+                </div>
+                <button id="sign-up">Đăng kí</button>
+            </form>
+        </div>
+        
+        <div class="form login" id="loginForm">
+            <form>
+                <h2 class="top">Đăng nhập</h2>
+                <div class="input">
+                    <input type="text" id="email-login" required>
+                    <label for="">Email</label>
+                    <i class="fa-solid fa-user"></i>
+                    <span></span>
+                </div>
+                <div class="input">
+                    <input type="password" id="password-login" required>
+                    <label for="">Mật khẩu</label>
+                    <i class="fa-solid fa-eye"></i>
+                    <span></span>
+                </div>
+                <button id="sign-in">Đăng nhập</button>
+            </form>
+        </div>
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-text left">
+                    <h2 class="title">Xin chào</h2>
+                    <p>Nếu bạn đã có tài khoản, đăng nhập tại đây</p>
+                    <button class="btn" id="login">Đăng nhập <i class="fa-solid fa-arrow-left"></i></button>
+                </div>
+                <div class="content-text right">
+                    <h2 class="title">Xin chào </h2>
+                    <p>Nếu bạn chưa có tài khoản, đăng kí tại đây</p>
+                    <button class="btn" id="register">Đăng kí <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/user.js"></script>
+</body>
+
+</html>
